@@ -3,9 +3,9 @@ env:
   es2022: true
   node: true
 extends:
-  - prettier
-  - plugin:sonarjs/recommended
   - metarhia
+  - plugin:sonarjs/recommended
+  - prettier
 plugins:
   - sonarjs
   - '@typescript-eslint'
