@@ -1,0 +1,16 @@
+parser: '@typescript-eslint/parser'
+env:
+  es2022: true
+  node: true
+extends:
+  - prettier
+  - plugin:sonarjs/recommended
+  - metarhia
+plugins:
+  - sonarjs
+  - '@typescript-eslint'
+parserOptions:
+  ecmaVersion: latest
+  sourceType: module
+rules:
+  no-console: 'off'
