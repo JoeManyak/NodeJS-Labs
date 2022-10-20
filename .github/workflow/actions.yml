@@ -2,7 +2,7 @@ name: Commit Actions
 
 on:
   pull_request:
-    branches: ["demo"]
+    branches: ["main"]
     types: [opened, reopened]
 
 jobs:
