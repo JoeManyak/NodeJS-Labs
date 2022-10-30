@@ -2,7 +2,7 @@
   "name": "nodejs-labs",
   "version": "1.0.0",
   "description": "here ill save my nodejslabs",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "eslint": "eslint ./**/*.ts --ignore-path .gitignore",
     "eslint:fix": "eslint ./**/*.ts --fix --ignore-path .gitignore",
